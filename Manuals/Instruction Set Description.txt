@@ -1,0 +1,4 @@
+Die folgenden Links sind wichtig/hilfreich, um das Instructionset vom Prozessor zu verstehen:
+
+https://developer.arm.com/documentation/ddi0484/c/CHDCICDF
+https://developer.arm.com/documentation/dui0497/a/the-cortex-m0-instruction-set?lang=en

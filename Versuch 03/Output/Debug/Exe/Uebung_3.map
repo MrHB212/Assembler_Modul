@@ -1,0 +1,331 @@
+***********************************************************************************************
+***                                                                                         ***
+***                                    LINK INFORMATION                                     ***
+***                                                                                         ***
+***********************************************************************************************
+
+Linker version:
+
+  SEGGER ARM Linker 4.38.2 compiled Mar  1 2023 10:41:10
+  Copyright (c) 2017-2022 SEGGER Microcontroller GmbH    www.segger.com
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                     MODULE SUMMARY                                      ***
+***                                                                                         ***
+***********************************************************************************************
+
+Memory use by input file:
+
+  Object File                                       RX Code     RO Data     RW Data     ZI Data
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  SAMD21_Startup.o                                       60                                    
+  samd21e15a_Vectors.o                                  234                                    
+  start.o                                               104                                    
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Subtotal (3 objects)                                  398                                    
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Linker created (shared data, fills, blocks):                                            2 048
+  =============================================  ==========  ==========  ==========  ==========
+  Total:                                                398                               2 048
+  =============================================  ==========  ==========  ==========  ==========
+
+Memory use by archive member:
+
+Memory use by linker:
+
+  Description                                       RX Code     RO Data     RW Data     ZI Data
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Memory for block 'stack'                                                                2 048
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Subtotal (linker created):                                                              2 048
+  ---------------------------------------------  ----------  ----------  ----------  ----------
+  Objects (3 files)                                     398                                    
+  =============================================  ==========  ==========  ==========  ==========
+  Total:                                                398                               2 048
+  =============================================  ==========  ==========  ==========  ==========
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                     SECTION DETAIL                                      ***
+***                                                                                         ***
+***********************************************************************************************
+
+Sections by address:
+
+  Range              Symbol or [section] Name         Size  Al  Init  Ac  Object File
+  -----------------  -------------------------  ----------  --  ----  --  -----------
+  00000000-000000af  _vectors                          176  256
+                                                                Code  RX  samd21e15a_Vectors.o
+  000000b0-00000117  _start                            104   4  Code  RX  start.o
+  00000118-00000147  HardFault_Handler                  48   4  Code  RX  SAMD21_Startup.o
+  00000148-00000149  NMI_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  0000014a-0000014b  SVC_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  0000014c-0000014d  PendSV_Handler                      2   2  Code  RX  samd21e15a_Vectors.o
+  0000014e-0000014f  SysTick_Handler                     2   2  Code  RX  samd21e15a_Vectors.o
+  00000150-00000151  PM_Handler                          2   2  Code  RX  samd21e15a_Vectors.o
+  00000152-00000153  SYSCTRL_Handler                     2   2  Code  RX  samd21e15a_Vectors.o
+  00000154-00000155  WDT_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000156-00000157  RTC_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000158-00000159  EIC_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  0000015a-0000015b  NVMCTRL_Handler                     2   2  Code  RX  samd21e15a_Vectors.o
+  0000015c-0000015d  DMAC_Handler                        2   2  Code  RX  samd21e15a_Vectors.o
+  0000015e-0000015f  USB_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000160-00000161  EVSYS_Handler                       2   2  Code  RX  samd21e15a_Vectors.o
+  00000162-00000163  SERCOM0_Handler                     2   2  Code  RX  samd21e15a_Vectors.o
+  00000164-00000165  SERCOM1_Handler                     2   2  Code  RX  samd21e15a_Vectors.o
+  00000166-00000167  SERCOM2_Handler                     2   2  Code  RX  samd21e15a_Vectors.o
+  00000168-00000169  SERCOM3_Handler                     2   2  Code  RX  samd21e15a_Vectors.o
+  0000016a-0000016b  TCC0_Handler                        2   2  Code  RX  samd21e15a_Vectors.o
+  0000016c-0000016d  TCC1_Handler                        2   2  Code  RX  samd21e15a_Vectors.o
+  0000016e-0000016f  TCC2_Handler                        2   2  Code  RX  samd21e15a_Vectors.o
+  00000170-00000171  TC3_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000172-00000173  TC4_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000174-00000175  TC5_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000176-00000177  ADC_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000178-00000179  AC_Handler                          2   2  Code  RX  samd21e15a_Vectors.o
+  0000017a-0000017b  DAC_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  0000017c-0000017d  PTC_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  0000017e-0000017f  I2S_Handler                         2   2  Code  RX  samd21e15a_Vectors.o
+  00000180-00000181  Dummy_Handler                       2   2  Code  RX  samd21e15a_Vectors.o
+  00000182-0000018d  reset_handler                      12   2  Code  RX  SAMD21_Startup.o
+  0000018e-200007ff  ( UNUSED .=.+536872562 )   536 872 562
+                                                             -  ----  -   -
+  20000800-20000fff  [.bss.block.stack]              2 048   8  None  ZI  [ Linker created ]
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                       SYMBOL LIST                                       ***
+***                                                                                         ***
+***********************************************************************************************
+
+Function symbols by name:
+
+  Symbol name                   Address        Size  Align  Type  Bd  Object File
+  -------------------------  ----------  ----------  -----  ----  --  -----------
+  AC_Handler                 0x00000179                  2  Code  Wk  samd21e15a_Vectors.o
+  ADC_Handler                0x00000177                  2  Code  Wk  samd21e15a_Vectors.o
+  DAC_Handler                0x0000017B                  2  Code  Wk  samd21e15a_Vectors.o
+  DMAC_Handler               0x0000015D                  2  Code  Wk  samd21e15a_Vectors.o
+  Dummy_Handler              0x00000181                  2  Code  Wk  samd21e15a_Vectors.o
+  EIC_Handler                0x00000159                  2  Code  Wk  samd21e15a_Vectors.o
+  EVSYS_Handler              0x00000161                  2  Code  Wk  samd21e15a_Vectors.o
+  HardFault_Handler          0x00000119                  4  Code  Wk  SAMD21_Startup.o
+  I2S_Handler                0x0000017F                  2  Code  Wk  samd21e15a_Vectors.o
+  NMI_Handler                0x00000149                  2  Code  Wk  samd21e15a_Vectors.o
+  NVMCTRL_Handler            0x0000015B                  2  Code  Wk  samd21e15a_Vectors.o
+  PM_Handler                 0x00000151                  2  Code  Wk  samd21e15a_Vectors.o
+  PTC_Handler                0x0000017D                  2  Code  Wk  samd21e15a_Vectors.o
+  PendSV_Handler             0x0000014D                  2  Code  Wk  samd21e15a_Vectors.o
+  RTC_Handler                0x00000157                  2  Code  Wk  samd21e15a_Vectors.o
+  Reset_Handler              0x00000183                  2  Code  Gb  SAMD21_Startup.o
+  SERCOM0_Handler            0x00000163                  2  Code  Wk  samd21e15a_Vectors.o
+  SERCOM1_Handler            0x00000165                  2  Code  Wk  samd21e15a_Vectors.o
+  SERCOM2_Handler            0x00000167                  2  Code  Wk  samd21e15a_Vectors.o
+  SERCOM3_Handler            0x00000169                  2  Code  Wk  samd21e15a_Vectors.o
+  SVC_Handler                0x0000014B                  2  Code  Wk  samd21e15a_Vectors.o
+  SYSCTRL_Handler            0x00000153                  2  Code  Wk  samd21e15a_Vectors.o
+  SysTick_Handler            0x0000014F                  2  Code  Wk  samd21e15a_Vectors.o
+  TC3_Handler                0x00000171                  2  Code  Wk  samd21e15a_Vectors.o
+  TC4_Handler                0x00000173                  2  Code  Wk  samd21e15a_Vectors.o
+  TC5_Handler                0x00000175                  2  Code  Wk  samd21e15a_Vectors.o
+  TCC0_Handler               0x0000016B                  2  Code  Wk  samd21e15a_Vectors.o
+  TCC1_Handler               0x0000016D                  2  Code  Wk  samd21e15a_Vectors.o
+  TCC2_Handler               0x0000016F                  2  Code  Wk  samd21e15a_Vectors.o
+  USB_Handler                0x0000015F                  2  Code  Wk  samd21e15a_Vectors.o
+  WDT_Handler                0x00000155                  2  Code  Wk  samd21e15a_Vectors.o
+  _start                     0x000000B1                  4  Code  Gb  start.o
+  reset_handler              0x00000183                  2  Code  Gb  SAMD21_Startup.o
+
+Function symbols by address:
+
+     Address  Symbol name                      Size  Align  Type  Bd  Object File
+  ----------  -------------------------  ----------  -----  ----  --  -----------
+  0x000000B1  _start                                     4  Code  Gb  start.o
+  0x00000119  HardFault_Handler                          4  Code  Wk  SAMD21_Startup.o
+  0x00000149  NMI_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x0000014B  SVC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x0000014D  PendSV_Handler                             2  Code  Wk  samd21e15a_Vectors.o
+  0x0000014F  SysTick_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  0x00000151  PM_Handler                                 2  Code  Wk  samd21e15a_Vectors.o
+  0x00000153  SYSCTRL_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  0x00000155  WDT_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000157  RTC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000159  EIC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x0000015B  NVMCTRL_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  0x0000015D  DMAC_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  0x0000015F  USB_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000161  EVSYS_Handler                              2  Code  Wk  samd21e15a_Vectors.o
+  0x00000163  SERCOM0_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  0x00000165  SERCOM1_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  0x00000167  SERCOM2_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  0x00000169  SERCOM3_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  0x0000016B  TCC0_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  0x0000016D  TCC1_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  0x0000016F  TCC2_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  0x00000171  TC3_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000173  TC4_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000175  TC5_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000177  ADC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000179  AC_Handler                                 2  Code  Wk  samd21e15a_Vectors.o
+  0x0000017B  DAC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x0000017D  PTC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x0000017F  I2S_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  0x00000181  Dummy_Handler                              2  Code  Wk  samd21e15a_Vectors.o
+  0x00000183  reset_handler                              2  Code  Gb  SAMD21_Startup.o
+  0x00000183  Reset_Handler                              2  Code  Gb  SAMD21_Startup.o
+
+Function symbols by descending size:
+
+  Symbol name                      Size  Align  Type  Bd  Object File
+  -------------------------  ----------  -----  ----  --  -----------
+  AC_Handler                                 2  Code  Wk  samd21e15a_Vectors.o
+  ADC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  DAC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  DMAC_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  Dummy_Handler                              2  Code  Wk  samd21e15a_Vectors.o
+  EIC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  EVSYS_Handler                              2  Code  Wk  samd21e15a_Vectors.o
+  HardFault_Handler                          4  Code  Wk  SAMD21_Startup.o
+  I2S_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  NMI_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  NVMCTRL_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  PM_Handler                                 2  Code  Wk  samd21e15a_Vectors.o
+  PTC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  PendSV_Handler                             2  Code  Wk  samd21e15a_Vectors.o
+  RTC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  Reset_Handler                              2  Code  Gb  SAMD21_Startup.o
+  SERCOM0_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  SERCOM1_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  SERCOM2_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  SERCOM3_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  SVC_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  SYSCTRL_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  SysTick_Handler                            2  Code  Wk  samd21e15a_Vectors.o
+  TC3_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  TC4_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  TC5_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  TCC0_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  TCC1_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  TCC2_Handler                               2  Code  Wk  samd21e15a_Vectors.o
+  USB_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  WDT_Handler                                2  Code  Wk  samd21e15a_Vectors.o
+  _start                                     4  Code  Gb  start.o
+  reset_handler                              2  Code  Gb  SAMD21_Startup.o
+
+Untyped symbols by name:
+
+  Symbol name                     Value        Size  Align  Type  Bd  Object File
+  -------------------------  ----------  ----------  -----  ----  --  -----------
+  __FLASH1_segment_end__     0x00008000                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_size__    0x00008000                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_start__   0x00000000                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_used_end__
+                             0x0000018E                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_used_size__
+                             0x0000018E                     ----  Gb  [ Linker created ]
+  __FLASH1_segment_used_start__
+                             0x00000000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_end__      0x00008000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_size__     0x00008000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_start__    0x00000000                     ----  Gb  [ Linker created ]
+  __FLASH_segment_used_end__
+                             0x0000018E                     ----  Gb  [ Linker created ]
+  __FLASH_segment_used_size__
+                             0x0000018E                     ----  Gb  [ Linker created ]
+  __FLASH_segment_used_start__
+                             0x00000000                     ----  Gb  [ Linker created ]
+  __HEAPSIZE__               0x00000000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_end__       0x20001000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_size__      0x00001000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_start__     0x20000000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_used_end__  0x20001000                     ----  Gb  [ Linker created ]
+  __RAM1_segment_used_size__
+                             0x00000800                     ----  Gb  [ Linker created ]
+  __RAM1_segment_used_start__
+                             0x20000800                     ----  Gb  [ Linker created ]
+  __RAM_segment_end__        0x20001000                     ----  Gb  [ Linker created ]
+  __RAM_segment_size__       0x00001000                     ----  Gb  [ Linker created ]
+  __RAM_segment_start__      0x20000000                     ----  Gb  [ Linker created ]
+  __RAM_segment_used_end__   0x20001000                     ----  Gb  [ Linker created ]
+  __RAM_segment_used_size__  0x00000800                     ----  Gb  [ Linker created ]
+  __RAM_segment_used_start__
+                             0x20000800                     ----  Gb  [ Linker created ]
+  __STACKSIZE_PROCESS__      0x00000000                     ----  Gb  [ Linker created ]
+  __STACKSIZE__              0x00000800                     ----  Gb  [ Linker created ]
+  __stack_end__              0x20001000                     ----  Gb  [ Linker created ]
+  __thread_pointer$          0x00000000                     ----  Gb  [ Linker created ]
+  _vectors                   0x00000000       [176]    256  Code  Gb  samd21e15a_Vectors.o
+  _vectors_end               0x000000B0                256  Code  Lc  samd21e15a_Vectors.o
+  loop                       0x000000C6                  4  Code  Lc  start.o
+
+Untyped symbols by address:
+
+       Value  Symbol name                      Size  Align  Type  Bd  Object File
+  ----------  -------------------------  ----------  -----  ----  --  -----------
+  0x00000000  _vectors                        [176]    256  Code  Gb  samd21e15a_Vectors.o
+  0x00000000  __thread_pointer$                             ----  Gb  [ Linker created ]
+  0x00000000  __STACKSIZE_PROCESS__                         ----  Gb  [ Linker created ]
+  0x00000000  __HEAPSIZE__                                  ----  Gb  [ Linker created ]
+  0x00000000  __FLASH_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x00000000  __FLASH_segment_start__                       ----  Gb  [ Linker created ]
+  0x00000000  __FLASH1_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x00000000  __FLASH1_segment_start__                      ----  Gb  [ Linker created ]
+  0x000000B0  _vectors_end                             256  Code  Lc  samd21e15a_Vectors.o
+  0x000000C6  loop                                       4  Code  Lc  start.o
+  0x0000018E  __FLASH_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x0000018E  __FLASH_segment_used_end__
+                                                            ----  Gb  [ Linker created ]
+  0x0000018E  __FLASH1_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x0000018E  __FLASH1_segment_used_end__
+                                                            ----  Gb  [ Linker created ]
+  0x00000800  __STACKSIZE__                                 ----  Gb  [ Linker created ]
+  0x00000800  __RAM_segment_used_size__                     ----  Gb  [ Linker created ]
+  0x00000800  __RAM1_segment_used_size__
+                                                            ----  Gb  [ Linker created ]
+  0x00001000  __RAM_segment_size__                          ----  Gb  [ Linker created ]
+  0x00001000  __RAM1_segment_size__                         ----  Gb  [ Linker created ]
+  0x00008000  __FLASH_segment_size__                        ----  Gb  [ Linker created ]
+  0x00008000  __FLASH_segment_end__                         ----  Gb  [ Linker created ]
+  0x00008000  __FLASH1_segment_size__                       ----  Gb  [ Linker created ]
+  0x00008000  __FLASH1_segment_end__                        ----  Gb  [ Linker created ]
+  0x20000000  __RAM_segment_start__                         ----  Gb  [ Linker created ]
+  0x20000000  __RAM1_segment_start__                        ----  Gb  [ Linker created ]
+  0x20000800  __RAM_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x20000800  __RAM1_segment_used_start__
+                                                            ----  Gb  [ Linker created ]
+  0x20001000  __stack_end__                                 ----  Gb  [ Linker created ]
+  0x20001000  __RAM_segment_used_end__                      ----  Gb  [ Linker created ]
+  0x20001000  __RAM_segment_end__                           ----  Gb  [ Linker created ]
+  0x20001000  __RAM1_segment_used_end__                     ----  Gb  [ Linker created ]
+  0x20001000  __RAM1_segment_end__                          ----  Gb  [ Linker created ]
+
+
+***********************************************************************************************
+***                                                                                         ***
+***                                      LINK SUMMARY                                       ***
+***                                                                                         ***
+***********************************************************************************************
+
+Memory breakdown:
+
+      398 bytes read-only  code    + 
+        0 bytes read-only  data    =     398 bytes read-only (total)
+    2 048 bytes read-write data
+
+Region summary:
+
+  Name        Range                     Size                 Used               Unused       Alignment Loss
+  ----------  -----------------  -----------  -------------------  -------------------  -------------------
+  FLASH       00000000-00007fff       32 768          398   1.21%       32 370  98.79%            0   0.00%
+  RAM         20000000-20000fff        4 096        2 048  50.00%        2 048  50.00%            0   0.00%
+
+Link complete: 0 errors, 0 warnings, 0 remarks
